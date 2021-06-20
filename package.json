@@ -1,0 +1,26 @@
+{
+  "name": "roarnsnippets",
+  "displayName": "Roarn",
+  "description": "Get some snippets to better your experience with Roarn.",
+  "version": "0.0.2",
+  "publisher": "imacodr",
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ro-arn/vscode-roarn"
+  },
+  "engines": {
+    "vscode": "^1.57.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "lua",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}

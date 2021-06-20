@@ -1,0 +1,9 @@
+{
+  "Require Package": {
+    "prefix": "import",
+    "body": [
+      "local ${1:Package} = require(game.ReplicatedStorage.roarn_modules.${1:Package})"
+    ],
+    "description": "Import packages into the file."
+  }
+}
